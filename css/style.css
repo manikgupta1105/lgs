@@ -1,0 +1,120 @@
+﻿html,body{
+	height:100%;
+	width:100%;
+}
+
+.navbar{
+	height: 100px;
+	background-color: #23415C;
+	padding: 1% 0;
+	font-size: 1.5em;
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #D5D5D5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+	color: #FFF;
+}
+
+#home{
+	padding:50px 50px 50px 50px;
+	background: url("../images/img1.jpeg") no-repeat center center fixed ;
+	display: table;
+	height: 100%;
+	position:relative;
+	width:100%;
+	background-size: cover;
+	opacity:140%;
+
+}
+
+.landing-text {
+	display: table-cell;
+	text-align:center;
+	vertical-align:middle;
+
+}
+
+.landing-text h2{
+	font-size: 400%;
+	font-weight: 900;
+	color: white;
+	font-family: "Comic Sans"
+}
+
+.landing-text h4{
+	font-size: 200%;
+	font-weight: 900;
+	color: white;
+}
+
+.padding{
+	padding:80px 0;
+}
+.padding img {
+	width:100%;
+}
+
+#fixed{
+	background: url("../images/img1.jpeg") no-repeat center center fixed ;
+	display: table;
+	height: 60%;
+	position:relative;
+	width:100%;
+	background-size: cover;
+}
+
+footer{
+	width: 100%;
+	background-color: #23415C;
+	padding: 2% 2% 2% 2%;
+	font-size: 1.2em;
+	color:white;
+}
+
+.fa{
+	padding:15px;
+	font-size:25px;
+	color: #FFF;
+}
+
+.fa:hover{
+	color: #D5D5D5;
+	text-decoration:none;
+
+}
+
+.icon{
+	max-width:200px ;
+}
+
+img.two {
+  height: 70%;
+  width: 70%;
+  border-radius: 8px;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
